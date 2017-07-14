@@ -1,0 +1,7 @@
+set terminal pdf
+set output "OutputC_steps.pdf"
+set ylabel "steps"
+set xlabel "shift away from true eigenvalue"
+plot \ 
+[][] "OutputC.txt" using 1:2 with lines title "Inverse iteration" \ 
+,"" using 1:3 with lines title "Rayleigh iteration" \ 

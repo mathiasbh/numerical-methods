@@ -1,0 +1,22 @@
+Exercise A fitting coefficients
+f(x) = a1/x + a2 + a3*x
+[a1,a2,a3] = 
+ 0.9811 +/- 0.038301
+ 2.1595 +/- 0.27911
+ 3.0227 +/- 0.66314
+
+Exercise B fitting coefficients
+f(x) = a1 + a2*x + a3*x*sin(x)
+[a1,a2,a3] = 
+ 3.3856 +/- 0.18249
+0.38264 +/- 0.23163
+0.50192 +/- 0.053773
+Input: a1=3.0, a2=0.4, a3=0.5
+
+Exercise C fitting coefficients
+f(x) = a1/x + a2 + a3*x
+[a1,a2,a3] = 
+ 0.9811 +/- 0.096622
+ 2.1595 +/- 0.59131
+ 3.0227 +/- 0.40018
+

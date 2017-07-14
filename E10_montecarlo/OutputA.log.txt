@@ -1,0 +1,10 @@
+#################### Exercise A ####################
+ ---- Integral x+y, x,y=[0,2]
+Result = 7.94249, error = 0.0326434, points N = 10000, expected = 8
+
+ ---- Integral x*y*z*w, x,y=[0,2], z=[0,1.5], w=[0,3]
+Result = 20.24, error = 0.0297242, points N = 1000000, expected = 20.25
+
+ ---- Integral pi^(-3)/(1-cos(x)cos(y)cos(z)), x,y,z=[0,PI]
+Result = 1.36229, error = 0.0114688, expected = 1.393204, points N = 100000
+

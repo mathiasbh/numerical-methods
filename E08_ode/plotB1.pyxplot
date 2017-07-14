@@ -1,0 +1,7 @@
+set terminal pdf
+set output "OutputB1.pdf"
+set xlabel "$x$"
+set ylabel "$y$"
+plot \ 
+[][] "OutputB.txt" index 0 using 1:2 with lines notitle \ 
+,      "" index 0 using 1:3 with lines notitle \ 

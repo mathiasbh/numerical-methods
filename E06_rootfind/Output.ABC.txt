@@ -1,0 +1,44 @@
+--- Solve system of equations ---:
+Part A
+Newton root find steps: 12
+Number of function calls: 49
+Solutions (x,y) = (1.09816e-05, 9.10615)
+
+--- Minimum of Beale's function (other interesting example) ---:
+Part A
+Newton root find steps: 7
+Number of function calls: 31
+Solutions minima (x1,x2) = (3, 0.5)
+
+--- Minimum of Rosenbrock's valley ---:
+Part A
+Newton root find steps: 208
+Number of function calls: 1934
+Solutions minima (x1,x2) = (1, 1)
+
+Part B
+Newton root find steps: 208
+Number of function calls: 1518
+Solutions minima (x1,x2) = (1, 1)
+
+Part C
+Newton root find steps: 3
+Number of function calls: 12
+Solutions minima (x1,x2) = (1, 1)
+
+--- Minimum of Himmelblau's function ---:
+Part A
+Newton root find steps: 7
+Number of function calls: 28
+Solutions minima (x1,x2) = (3, 2)
+
+Part B
+Newton root find steps: 7
+Number of function calls: 14
+Solutions minima (x1,x2) = (3, 2)
+
+Part C
+Newton root find steps: 7
+Number of function calls: 28
+Solutions minima (x1,x2) = (3, 2)
+

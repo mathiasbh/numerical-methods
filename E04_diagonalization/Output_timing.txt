@@ -1,0 +1,17 @@
+Jacobi test: 100 by 100 matrix
+
+Test cyclic sweep diagonalization
+Number of rotations: 30786
+Elapsed time: 118.703000 ms
+
+
+Test row by row diagonalization
+Number of rotations: 1258049
+Elapsed time: 4056.414000 ms
+
+
+Test row by row - eliminate largest first - diagonalization
+Number of rotations: 788831
+Elapsed time: 2925.712000 ms
+
+

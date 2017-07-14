@@ -1,0 +1,9 @@
+set terminal pdf
+set output "OutputC.pdf"
+set xlabel "$x$"
+set ylabel "$y$"
+plot \ 
+[][] "OutputC.txt" index 0 using 1:2 with lines title "RK12" \ 
+,      "" index 1 using 1:2 with lines title "RK45" \ 
+,      "" index 2 using 1:2 with lines title "RK2" \ 
+,      "" index 3 using 1:2 with lines title "RK5" \ 

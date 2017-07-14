@@ -1,0 +1,13 @@
+#################### Exercise B ####################
+ ---- Integral (recursive 1D adaptive) x*y^3, x,y=[0,2.5]
+Result = 30.5176, error = 2.1875e-05, expected = 30.5176, calls=1580
+
+ ---- Integral (MC using tolerance) x*y^3, x,y=[0,2.5]
+Result = 30.52, error = 0.00499997, tolerance = 0.005, expected = 30.5176, calls=76290000
+
+ ---- Integral (recursive 1D adaptive) xy/(1+x*y^2), x,y=[0,2]
+Result = 1.47189, error = 9.54072e-06, expected = 1.47188, calls=12320
+
+ ---- Integral (MC using tolerance) xy/(1+x*y^2), x,y=[0,2]
+Result = 1.47904, error = 0.00496844, tolerance = 0.005, expected = 1.47188, calls=22000
+

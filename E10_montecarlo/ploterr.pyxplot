@@ -1,0 +1,7 @@
+set terminal pdf
+set output "OutputErrConv.pdf"
+set xlabel "$N$"
+set ylabel "error"
+plot \ 
+[][] "OutputA.txt" using 1:2 with lines notitle \ 
+, "" using 1:3.3/(sqrt($1)) with lines title "$1/\sqrt{N}$" \ 

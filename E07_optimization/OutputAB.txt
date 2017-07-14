@@ -1,0 +1,30 @@
+--- Minimization of Rosenbrock's valley ---:
+Part A: user specified 1st and 2nd derivative
+Newton minimization steps: 14
+Number of function calls: 61
+Solutions (x,y) = (1, 1)
+
+Part B: inverse hessian
+Newton quasi minimization steps: 626
+Number of function calls: 4430
+Solutions (x,y) = (1, 1)
+
+--- Minimization of Himmelblau's function ---:
+Part A: user specified 1st and 2nd derivative
+Newton minimization steps: 10
+Number of function calls: 40
+Solutions (x,y) = (3, 2)
+
+Part B: inverse hessian
+Newton quasi minimization steps: 2898
+Number of function calls: 17549
+Solutions (x,y) = (3, 2)
+
+--- Minimum of Beale's function (other interesting example) ---:
+Part B
+Newton quasi minimization steps: 162
+Number of function calls: 1001
+Solutions minima (x1,x2) = (3, 0.5)
+
+Comparing root finding method see ROOT_FIND_COMPARISON.txt.
+Equivalent initial guesses are used.

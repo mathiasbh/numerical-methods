@@ -1,0 +1,8 @@
+Solution should be sin(x)
+Initial: t=0, h=0.01, y(a)=0, 1, 
+Final  : t=1.57062, h=0.00139323, y(b)=1, 0.000171997, 
+
+Solution should be y(t)=a*exp(-t) + b*t*exp(-t)
+Initial: t=0, h=0.01, y(a)=1, 3, 
+Final  : t=1.57003, h=0.00168389, y(b)=1.51455, -0.682392, 
+

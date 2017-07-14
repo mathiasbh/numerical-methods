@@ -1,0 +1,128 @@
+Testing inverse iteration on MATRIX A (see README)!
+
+Expected eigval = 2, eigvec = [1 1 1]
+Result eigval = 1.99997 (guess=54), eigvec =
+    -0.577
+    -0.577
+    -0.577
+
+Steps = 297
+
+
+Expected eigval = 0.5, eigvec = [1 0 2]
+Result eigval = 0.5 (guess=0.1), eigvec =
+     0.447
+    -0.000
+     0.894
+
+Steps = 34
+
+
+Expected eigval = -0.5, eigvec = [-1 2 0]
+Result eigval = -0.499991 (guess=-10), eigvec =
+     0.447
+    -0.894
+     0.000
+
+Steps = 94
+
+
+
+>>>> timing: 1.890000 ms <<<<
+
+Testing inverse iteration on MATRIX B (see README)!
+
+Expected eigval = 4, eigvec = [9 4 6]
+Result eigval = 4.00012 (guess=120), eigvec =
+     0.780
+     0.347
+     0.520
+
+Steps = 998
+
+
+Expected eigval = 3, eigvec = [1 0 1]
+Result eigval = 3 (guess=2), eigvec =
+    -0.707
+     0.000
+    -0.707
+
+Steps = 21
+
+
+Expected eigval = 0, eigvec = [-1 0 2]
+Result eigval = -3.96355e-05 (guess=-120), eigvec =
+    -0.447
+     0.000
+     0.894
+
+Steps = 543
+
+
+
+>>>> timing: 5.572000 ms <<<<
+
+Testing inverse iteration with dynamic Rayleigh quotient on MATRIX A (see README)!
+
+Expected eigval = 2, eigvec = [1 1 1]
+Result eigval = 2 (guess=54), eigvec =
+    -0.577
+    -0.577
+    -0.577
+
+Steps = 43
+
+
+Expected eigval = 0.5, eigvec = [1 0 2]
+Result eigval = 0.499998 (guess=0.1), eigvec =
+     0.447
+     0.000
+     0.894
+
+Steps = 26
+
+
+Expected eigval = -0.5, eigvec = [-1 2 0]
+Result eigval = -0.500001 (guess=-10), eigvec =
+     0.447
+    -0.894
+    -0.000
+
+Steps = 37
+
+
+
+>>>> timing: 0.212000 ms <<<<
+
+Testing inverse iteration with dynamic Rayleigh quotient on MATRIX B (see README)!
+
+Expected eigval = 4, eigvec = [9 4 6]
+Result eigval = 4 (guess=120), eigvec =
+    -0.780
+    -0.347
+    -0.520
+
+Steps = 45
+
+
+Expected eigval = 3, eigvec = [1 0 1]
+Result eigval = 3 (guess=2), eigvec =
+    -0.707
+     0.000
+    -0.707
+
+Steps = 35
+
+
+Expected eigval = 0, eigvec = [-1 0 2]
+Result eigval = -1.53475e-06 (guess=-120), eigvec =
+    -0.447
+     0.000
+     0.894
+
+Steps = 40
+
+
+
+>>>> timing: 0.508000 ms <<<<
+

@@ -1,0 +1,10 @@
+set terminal pdf
+set output "Plot_interpolate.pdf"
+set xlabel "$x$"
+set ylabel "$y$"
+plot \ 
+[][] "data.txt" index 0 with points title "Data" \ 
+,    "data.txt" index 1 using 1:2 with lines color black title "$e^{-x^2}$" \ 
+,    "data.txt" index 2 with lines title "Linear" \ 
+,    "data.txt" index 3 using 1:2 with lines title "Quadratic" \ 
+,    "data.txt" index 4 using 1:2 with lines title "Cubic" \ 

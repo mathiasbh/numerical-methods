@@ -1,0 +1,9 @@
+set terminal pdf
+set output "Plot_integral.pdf"
+set xlabel "$x$"
+set ylabel "$y$"
+set key bottom right
+plot \ 
+[][] "data.txt" index 1 using 1:4 with lines title "$\frac{\sqrt{\pi}}{2} \textup{erf}(x)$" \ 
+,    "data.txt" index 3 using 1:4 with lines title "Quadratic" \ 
+,    "data.txt" index 4 using 1:4 with lines title "Cubic" \ 

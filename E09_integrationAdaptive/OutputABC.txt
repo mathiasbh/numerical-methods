@@ -1,0 +1,67 @@
+##################Exercise A##################
+--- Integral f=x^2 (a,b)=(-1,5): open quadrature ---
+Q=42, err=0.0010852, calls=184, expected = 42
+
+
+--- Integral f=x^2 (a,b)=(-1,5): closed quadrature ---
+Q=42, err=0.000745764, calls=169, expected = 42
+
+
+--- Integral f=x^2*e^{-x^2} (a,b)=(-10,8): open quadrature ---
+Q=0.886192, err=4.15025e-05, calls=244, expected = 0.886227
+
+
+--- Integral f=x^2*e^{-x^2} (a,b)=(-10,8): closed quadrature ---
+Q=0.886275, err=4.80933e-05, calls=207, expected = 0.886227
+
+
+--- Integral f=4*sq(1-(1-x)^2) (a,b)=(0,1): open quadrature ---
+Q=3.1415926535897931, err=6.29584e-16, calls=2479544, acc=eps=1e-15
+
+
+--- Integral f=4*sq(1-(1-x)^2) (a,b)=(0,1): closed quadrature ---
+Q=3.1415926535897931, err=5.38705e-16, calls=1910335, acc=eps=1e-15
+
+
+--- Integral f=4*sq(1-(1-x)^2): GSL QAGS ---
+Q=3.1415926535897927, err=5.32907e-15, calls=315
+
+
+gsl is much faster but will not go to as high precision due to roundoff errors,
+ however, we only get one more digit of pi with 6000 times more calls...
+
+
+##################Exercise B##################
+--- Integral f=1.0/(x^2+2^2) (a,b)=(0,inf): open quadrature ---
+Q=0.7854002 (should be 0.785398), err=6.35288e-05, calls=52
+
+
+--- Integral f=exp(-2*x^2) (a,b)=(-inf,inf): open quadrature ---
+Q=1.253316 (should be 1.25331), err=5.96359e-05, calls=176
+
+
+--- Integral f=1.0/(2.0+x*x) (a,b)=(-inf,0): open quadrature ---
+Q=1.110769 (should be 1.110721), err=8.32618e-05, calls=44
+
+
+##################Exercise C##################
+--- Integral f=x^2 (a,b)=(-1,1): clensshawcurtis ---
+Q=2.82843, err=5.72014e-07, calls=408
+
+
+--- Integral f=x^2 (a,b)=(-1,1): without clensshawcurtis ---
+Q=2.82843, err=6.15374e-07, calls=6164
+
+
+--- Integral f=4*sq(1-(1-x)^2) (a,b)=(0,1): using ODE routines ---
+Q=3.143773, calls=16572, acc=eps=1e-08
+
+
+--- Integral f=4*sq(1-(1-x)^2) (a,b)=(0,1): open quadrature ---
+Q=3.141593, err=5.97213e-09, calls=3788, acc=eps=1e-08
+
+
+--- Integral f=4*sq(1-(1-x)^2) (a,b)=(0,1): closed quadrature ---
+Q=3.141593, err=4.52933e-09, calls=3173, acc=eps=1e-08
+
+
